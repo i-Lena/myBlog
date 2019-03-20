@@ -1,0 +1,82 @@
+/**
+* @Author : Nana
+* @Date : 2019/3/19 17:14
+* @Version 1.0
+*/
+
+/* index的样式 */
+
+/* main */
+.main {
+    /*height: 2800px;*/
+}
+.article {
+
+}
+.article .artItem {
+    padding-top: 50px;
+}
+.article .artItem .atcTitle {
+    position: relative;
+}
+.article .artItem .atcTitle .atcTitleLink {
+    position: relative;
+    font-size: 26px;
+    color: #555;
+    line-height: 1.2em;
+}
+.atcTitleLink::after {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: all .8s;
+}
+.atcTitleLink:hover::after {
+    left: 0;
+    width: 100%;
+}
+.article .artItem .atcDescription {
+    color: #999;
+    font-size: 12px;
+    line-height: 1.2em;
+    padding: 20px 0;
+}
+.article .artItem .atcContent {
+    color: #555;
+    font-size: 14px;
+    line-height: 2em;
+    padding: 10px 0;
+    text-align: justify;
+}
+.artDetail {
+    /*text-align: right;*/
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.artImg {
+    height: 200px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all linear 0.3s;
+    /*transform: scale(1.2);*/
+}
+.article .artItem .atcLink a {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    line-height: 2em;
+    /*border-bottom: 2px solid #666;*/
+    margin-top: 10px;
+    padding: 3px 10px;
+}

@@ -1,0 +1,218 @@
+/**
+* @Author : Nana
+* @Date : 2019/3/19 17:14
+* @Version 1.0
+*/
+
+/* 公共样式 */
+* {
+    font-size: 14px;
+}
+
+/* 公共样式 */
+.container {
+    position: relative;
+    /*margin-right: 320px;*/
+}
+.wrapper {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+/* 增加库样式 */
+.navBar-item .fa {
+    margin-right: 5px;
+}
+/* header */
+header {
+    background: #2C3E50;
+    padding: 10px 0;
+}
+
+/* logo */
+.logo {
+    display: inline-block;
+    color: #fff;
+    padding: 6px 0px;
+}
+.logoContent img {
+    width: 50px;
+    height: 50px;
+}
+.subTitle {
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+/* nav */
+.navBar {
+    /*display: inline-block;*/
+    float: right;
+    margin: 15px 0;
+}
+.navBar-item {
+    display: inline-block;
+}
+.navBar ul li a{
+    display: block;
+    padding: 6px 12px;
+    /*background-color: #CCC;*/
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2px;
+    color: #fff;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+
+}
+.navBar ul li a:hover {
+    background-color: #e1e1e1;
+    color: #555;
+}
+.navBar ul li .navLinkText {
+    font-style: normal;
+}
+
+    /* main */
+.main {
+
+}
+
+/* footer */
+footer {
+    /*position: fixed;
+    bottom: 0;
+    left: 0;*/
+    width: 100%;
+    margin-top: 80px;
+    padding: 10px 0;
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+}
+footer .wrapper a {
+    color: #fff;
+}
+/* back-to-top */
+.back-to-top,.sideBar-btn {
+    position: fixed;
+    right: 30px;
+    z-index: 2000;
+    box-sizing: border-box;
+    padding: 6px;
+    width: 24px;
+    background-color: #1d2935;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transform: translateZ(0);
+    transition-property: bottom;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.back-to-top {
+    display: none;
+    bottom: 14px;
+}
+.sideBar-btn {
+    bottom: 45px;
+}
+
+/* sideBar */
+.sideBar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: #1d2935;
+    width: 320px;
+    color: #e1e1e1;
+    opacity: 0.95;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* 侧边栏头部 */
+.asideHeader {
+    /*text-align: center;*/
+    margin-top: 15px;
+}
+.authorImg {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    transition: all 2s;
+}
+.authorImg:hover {
+    transform: rotate(360deg);
+}
+/* 侧边栏主体 */
+.asideBody {
+    text-align: center;
+}
+.asideNav {
+    margin-top: 35px;
+}
+.asideNav li {
+    /*width: 50px;*/
+    display: inline-block;
+    border-left: 1px solid #333;
+    text-align: center;
+    padding: 0 15px;
+}
+.asideNav li:first-child {
+    border-left: none;
+}
+.asideNavItem a {
+    display: inline-block;
+    color: #999;
+}
+.asideNavItem a:hover {
+    color: #fff;
+}
+.navItemNum {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+.navItemName {
+    display: block;
+    font-size: 13px;
+}
+    /* 侧边栏底部 */
+.asideFooter {
+    text-align: center;
+}
+.friendLinks {
+    margin-top: 35px;
+}
+.friendLinks ul li {
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 1px solid #555;
+    text-align: center;
+}
+.friendLinks ul li a {
+    color: #999;
+}
+.friendLinks ul li a:hover {
+    color: #fff;
+}
+.friendLinks ul li i {
+    font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    #sideBarBtn {
+        display: none;
+    }
+}

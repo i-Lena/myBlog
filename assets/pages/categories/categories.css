@@ -1,0 +1,37 @@
+/**
+* @Author : Nana
+* @Date : 2019/3/20 8:52
+* @Version 1.0
+*/
+/* categories CSS*/
+.categories {
+    margin-top: 35px;
+}
+.categoriesItem {
+    width: 100%;
+}
+.categoriesItemTitle {
+    position: relative;
+    background-color: #2C3E50;
+    color: #fff;
+    line-height: 3em;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.seperator {
+    margin: 0 5px;
+}
+.categoriesItemTitle i {
+    font-style: normal;
+}
+.oprBtn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.categoriesItemContent {
+    border: 1px solid #2C3E50;
+    border-top: none;
+    line-height: 3em;
+    padding: 0 15px;
+}
