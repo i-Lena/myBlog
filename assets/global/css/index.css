@@ -18,6 +18,7 @@
 }
 .article .artItem .atcTitle {
     position: relative;
+    /*text-align: center;*/
 }
 .article .artItem .atcTitle .atcTitleLink {
     position: relative;
@@ -58,17 +59,19 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 200px;
-    height: 200px;
     overflow: hidden;
 }
 .artImg {
-    height: 200px;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all linear 0.3s;
     /*transform: scale(1.2);*/
+}
+@media (max-width: 991px){
+    .artImg {
+        display: none;
+    }
 }
 .article .artItem .atcLink a {
     display: inline-block;
